@@ -1,0 +1,35 @@
+nav {
+  height: 80px;
+  width: auto;
+  position: sticky;
+  top: 0;
+  background-color: #4056A1;
+  color: #ffffff;
+  padding: 1.5em 1.5em 2.5em 1.5em;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav #span-tweet {
+  font-family: "Bungee";
+}
+
+nav button {
+  background-color: #4056A1;
+  color: #ffffff;
+  border: none;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: small;
+  cursor: pointer;
+  width: 115px;
+  outline: none;
+}
+
+#arrow {
+  color: red;
+}
+
+#button-word {
+  font-weight: lighter;
+}

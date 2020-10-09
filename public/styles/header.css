@@ -1,0 +1,22 @@
+.tweet-header {
+  height: 300px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #F3A30D;
+  background-image: url("../images/ag-square.png");
+  flex-grow: 1;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.tweet-header img {
+  width: 160px;
+}
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}

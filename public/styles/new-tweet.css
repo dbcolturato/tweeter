@@ -1,0 +1,149 @@
+.page-content {
+  display: flex;
+}
+.new-tweet {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+#tweet-text {
+  margin: 15px 0px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: solid 3px black;
+  width: 100%;
+  background-color: #f4f1ec;
+}
+
+#submit-button {
+  background-color: #4056A1;
+  font-family: "Bungee";
+  font-size: large;
+  border: none;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  font-family: "Bungee";
+  font-size: medium;
+  justify-content: space-between;
+}
+
+.photo {
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+
+}
+
+.tweet {
+  background-color: #f4f1ec;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  border: solid black;
+}
+
+.tweet header {
+  background-color: #f4f1ec;
+  font-size: medium;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 60px;
+}
+
+.tweet footer {
+  margin: auto;
+  padding: 10px 10px;
+  width: 98%;
+  font-size: x-small;
+  border-top: solid 3px black;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tweet .tweet-text {
+  margin: auto;
+  width: 95%;
+  font-size: medium;
+  margin: 4px 6px;
+  overflow: hidden;
+}
+
+.tweet:hover {
+  background: rgba(0, 0, 0, 0);
+  box-shadow: 5px 5px #3a7999;
+}
+
+.tweet .user {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tweet .handle {
+  color: #3a7999;
+  visibility: hidden;
+}
+
+.tweet:hover .handle {
+  visibility: visible;
+}
+
+#error {
+  background-color: #f4f1ec;
+  border: 3px solid rgb(243, 55, 55);
+  color: rgb(243, 55, 55);
+  font-size: medium;
+  width: 95%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 20px 25px;
+  display: none;
+}
+
+@media (max-width:768px) {
+  nav {
+    background-color: rgb(243, 163, 13);
+  }
+  .page-content {
+    flex-direction: column;
+  }
+  #compose-button {
+    background-color: rgb(243, 163, 13); 
+  }
+}
+
+@media (min-width: 769px) {
+  .page-content {
+    flex-direction: row;
+  }
+  nav {
+    width: 100%;
+  }
+  .tweet-header {
+    width: 30%;
+    margin: 5em 2em;
+  }
+  .container {
+    width: 70%;
+    margin: 2em 2em;
+  }
+}
