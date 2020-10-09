@@ -18,4 +18,5 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Screenshots
 
-!["Screenshot description"] (URL)
+!["Tweeter screenshot for small screens"] (https://github.com/dbcolturato/tweeter/blob/master/docs/Tweets-small-screen.png)
+!["Tweeter screenshot for large screens"] (https://github.com/dbcolturato/tweeter/blob/master/docs/Tweets-large-screen.png)
